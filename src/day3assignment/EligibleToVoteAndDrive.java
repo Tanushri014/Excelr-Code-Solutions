@@ -1,13 +1,6 @@
 package day3assignment;
 import java.util.Scanner;
-
-
-//2)Read a person's age. Print "Eligible to vote and drive" only if the age is 18 or
-//above AND a boolean variable hasLicense is true; otherwise print "Not eligible".
-//Use a single compound condition with &&.
-
 public class EligibleToVoteAndDrive {
-
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter your age:");
@@ -21,6 +14,4 @@ public class EligibleToVoteAndDrive {
 			System.out.println("Not eligible");
 		}
 	}
-	
-
 }
