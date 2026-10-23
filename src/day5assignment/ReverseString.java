@@ -14,5 +14,9 @@ public class ReverseString {
 			 start++; end--; 
 			 } String reverse = new String(arr); 
 			 System.out.println("Reversed String: " + reverse);
+			 
+			// Method 2: StringBuilder Method 
+			 StringBuilder sb = new StringBuilder(str); 
+			 System.out.println("Reverse using StringBuilder: " + sb.reverse());
 		 }
 }
