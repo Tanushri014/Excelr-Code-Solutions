@@ -21,8 +21,6 @@ public class Question14 {
 				max=arr[i];
 				k++;
 			}
-			
-			
 		}
 		for(int i=0;i<k;i++) {
 			System.out.println(leaders[i]);
