@@ -7,5 +7,9 @@ public class UncheckedExceptionExample {
 		System.out.println(k);
 
 	}
-
 }
+//ArithmeticException
+//NullPointerException
+//ArrayIndexOutOfBoundsException
+//NumberFormatException
+//StringIndexOutOfBoundsException
