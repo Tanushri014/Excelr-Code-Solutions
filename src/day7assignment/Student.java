@@ -2,20 +2,30 @@ package day7assignment;
 
 public class Student {
 	private String name;
-	private int age;
+	private int roll;
+	private char grade;
 	public Student() {
 		this.name="default";
-		this.age=0;
+		this.roll=0;
 	}
-	public Student(String name, int age) {
+	public Student(String name, int roll) {
 		super();
 		this.name = name;
-		this.age = age;
+		this.roll = roll;
+		System.out.println("name:"+name+", roll number is:"+roll);
 	}
 	public Student(String name) {
 		super();
 		this.name = name;
+		System.out.println("name:"+name);
 		
+	}
+	public Student(String name, int roll, char grade) {
+		super();
+		this.name = name;
+		this.roll = roll;
+		this.grade = grade;
+		System.out.println("name:"+name+", roll number is:"+roll+",grade :"+grade);
 	}
 	
 
